@@ -4,7 +4,7 @@
 # Capture a JPEG while still running in the preview mode. When you
 # capture to a file, the return value is the metadata for that image.
 
-import time, requests, signal, os
+import time, requests, signal, os, replicate
 
 from picamera2 import Picamera2, Preview
 from gpiozero import LED, Button
